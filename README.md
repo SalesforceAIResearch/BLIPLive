@@ -1,17 +1,34 @@
-# README
+# BLIP-Live
 
-A repo containing all the basic file templates and general guidelines for any open source project at Salesforce.
+Official repository for **BLIP-Live**.
 
-## Usage
+## Coming soon
 
-It's required that all files must be placed at the top level of your repository.
+We will release the BLIP-Live dataset, code, and pretrained checkpoints soon.
+Additional resources and supporting materials will follow.
 
-> **NOTE** Your README should contain detailed, useful information about the project!
+- [ ] Dataset
+- [ ] Code
+- [ ] Pretrained checkpoints
+- [ ] Additional resources and documentation
 
-## CODEOWNERS and GUS info
+Watch this repository for release updates.
 
-Keep the `#ECCN:Open Source` and `#GUSINFO:` lines in `CODEOWNERS`. The template value
-`#GUSINFO:Open Source,Open Source Workflow` is a placeholder: the OSPO records your real
-GUS Scrum Team and Product Tag privately when the repo is made public. If you are happy for
-your team to be public, you may replace it with `#GUSINFO:<GUS Scrum Team>,<GUS Product Tag>`,
-which then takes precedence (keep it current if your team changes).
+## Contributing
+
+Please see [CONTRIBUTING.md](CONTRIBUTING.md) for contribution guidelines
+and our [Code of Conduct](CODE_OF_CONDUCT.md) for community guidelines.
+
+## Responsible use
+
+Please review our [AI ethics disclaimer](AI_ETHICS.md).
+Report security concerns through the process in [SECURITY.md](SECURITY.md).
+
+## License
+
+This project is licensed under the
+[Apache License 2.0](LICENSE.txt).
+Licensing details for the dataset and pretrained checkpoints will be provided
+with their releases.
+
+Copyright (c) 2026 Salesforce, Inc.
