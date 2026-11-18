@@ -1,5 +1,9 @@
 # BLIP-Live
 
+[Kanchana Ranasinghe](https://scholar.google.com/citations?user=K2WBZTwAAAAJ), [Honglu Zhou](https://scholar.google.com/citations?user=U-Uzcs8AAAAJ), [Dominick Reilly](https://scholar.google.com/citations?user=YlFKOTkAAAAJ), [Le Xue](https://scholar.google.com/citations?user=r__7N8MAAAAJ), [Shusheng Yang](https://scholar.google.com/citations?user=v6dmW5cntoMC), [Juan Carlos Niebles](https://scholar.google.com/citations?user=hqNhUCYAAAAJ), [Silvio Savarese](https://scholar.google.com/citations?user=ImpbxLsAAAAJ), [Ran Xu](https://scholar.google.com/citations?user=sgBB2sUAAAAJ)
+
+[Project Page](https://bliplive.salesforceresearch.ai/) | [Paper](https://arxiv.org/abs/2611.21553v1)
+
 Official repository for **BLIP-Live**.
 
 ## Coming soon
