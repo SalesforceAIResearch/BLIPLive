@@ -163,7 +163,7 @@ Report security concerns using [SECURITY.md](SECURITY.md).
 
 ## License
 
-[Apache License 2.0](LICENSE.txt). See [NOTICE.md](NOTICE.md) for source attribution.
+[Apache License 2.0](LICENSE.txt).
 Dataset and model terms are provided by their respective publishers.
 
 Copyright (c) 2026 Salesforce, Inc.

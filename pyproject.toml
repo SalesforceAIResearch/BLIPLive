@@ -9,7 +9,7 @@ description = "PAUC/PAUC-F metrics and a minimal streaming video evaluation harn
 readme = "README.md"
 requires-python = ">=3.12,<3.13"
 license = "Apache-2.0"
-license-files = ["LICENSE.txt", "NOTICE.md"]
+license-files = ["LICENSE.txt"]
 dependencies = []
 
 [project.optional-dependencies]
