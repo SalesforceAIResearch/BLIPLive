@@ -1,0 +1,14 @@
+{
+  "runtime": "gemma",
+  "model_name": "google/gemma-4-26B-A4B-it",
+  "model_revision": "6e6f6edea8c52db2094dca3086e4b963a0034dfc",
+  "protocol": "zss7",
+  "window_frames": 3,
+  "max_new_tokens": 192,
+  "tolerance": 0.5,
+  "source_fps": 2,
+  "expected_examples": 500,
+  "judge_model": "gpt-4.1",
+  "omega": 0.5,
+  "recorded_web_pauc_f": 43.39
+}

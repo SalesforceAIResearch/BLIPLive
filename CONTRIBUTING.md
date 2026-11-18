@@ -1,25 +1,24 @@
 # Contributing to BLIP-Live
 
-Thank you for your interest in BLIP-Live. The dataset, code, and pretrained
-checkpoints are coming soon. Contribution instructions will be updated alongside
-the code release.
+Documentation corrections and focused fixes are welcome through GitHub pull requests.
+Install with `pip install -e ".[dev]"` and run:
 
-Documentation corrections are welcome through GitHub pull requests. Please keep
-changes focused and describe what they improve.
+```bash
+python -m unittest discover -s tests -v
+ruff check src tests
+ruff format --check src tests
+```
+
+Changes to scoring, frame sampling, prompts, or response parsing must preserve
+the documented reference behavior, or explicitly introduce a new version.
+Training and trained-checkpoint inference are planned for a future release.
 
 ## Contributor License Agreement
 
 Contributors must sign the [Salesforce CLA](https://cla.salesforce.com/sign-cla)
 before a pull request can be accepted. You only need to sign once to contribute
-to Salesforce open-source projects.
-
-By submitting a contribution, you agree to license it under the terms of the
+to Salesforce open-source projects. Contributions are licensed under the
 [project license](LICENSE.txt).
 
-## Code of Conduct
-
-Please follow our [Code of Conduct](CODE_OF_CONDUCT.md).
-
-## Security
-
-Please report security concerns using the process in [SECURITY.md](SECURITY.md).
+Follow our [Code of Conduct](CODE_OF_CONDUCT.md). Report security concerns using
+the process in [SECURITY.md](SECURITY.md).

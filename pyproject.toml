@@ -1,0 +1,48 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "blip-live"
+version = "0.1.0"
+description = "PAUC/PAUC-F metrics and a minimal streaming video evaluation harness"
+readme = "README.md"
+requires-python = ">=3.12,<3.13"
+license = "Apache-2.0"
+license-files = ["LICENSE.txt", "NOTICE.md"]
+dependencies = []
+
+[project.optional-dependencies]
+harness = [
+    "torch==2.5.1",
+    "torchvision==0.20.1",
+    "transformers==5.5.0",
+    "accelerate==1.13.0",
+    "numpy==2.3.1",
+    "opencv-python>=4.10,<5",
+    "Pillow==11.3.0",
+    "openai>=1.50,<3",
+]
+dev = ["ruff>=0.12"]
+
+[project.scripts]
+blip-live-infer = "inference.run:main"
+blip-live-evaluate = "evaluation.run:main"
+blip-live-metrics = "metrics:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+py-modules = ["metrics"]
+include-package-data = false
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["harness*", "inference*", "evaluation*", "data*"]
+namespaces = false
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+
+[tool.ruff.lint.isort]
+known-first-party = ["data", "evaluation", "harness", "inference", "metrics"]

@@ -23,3 +23,8 @@ venv/
 /outputs/
 /runs/
 /wandb/
+
+# Downloaded release assets
+/datasets/
+/checkpoints/
+/logs/
