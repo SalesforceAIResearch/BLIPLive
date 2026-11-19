@@ -19,7 +19,7 @@ harness = [
     "transformers==5.5.0",
     "accelerate==1.13.0",
     "numpy==2.3.1",
-    "opencv-python>=4.10,<5",
+    "opencv-python>=4.10",
     "Pillow==11.3.0",
     "openai>=1.50,<3",
 ]

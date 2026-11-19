@@ -1,6 +1,9 @@
 #!/usr/bin/env bash
 # Usage: bash examples/run_web_gemma.sh /path/to/WEB [output-directory]
 set -euo pipefail
+export OMP_NUM_THREADS="${OMP_NUM_THREADS:-1}"
+export MKL_NUM_THREADS="${MKL_NUM_THREADS:-1}"
+export OPENBLAS_NUM_THREADS="${OPENBLAS_NUM_THREADS:-1}"
 ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 if [[ $# -lt 1 || $# -gt 2 ]]; then
   echo "Usage: $0 /path/to/WEB [output-directory]" >&2
