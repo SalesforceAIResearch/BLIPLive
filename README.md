@@ -90,7 +90,12 @@ Report security concerns using [SECURITY.md](SECURITY.md).
 
 ## License
 
-[Apache License 2.0](LICENSE.txt).
-Dataset and model terms are provided by their respective publishers.
+The original code in this repository, including the inference harness, evaluation
+metrics, and benchmarking code, is licensed under the
+[Apache License, Version 2.0](LICENSE.txt). The training pipeline is planned for a
+future release under the same license.
+
+Third-party dependencies, models, model weights, and datasets remain subject to
+their respective licenses and terms.
 
 Copyright (c) 2026 Salesforce, Inc.
