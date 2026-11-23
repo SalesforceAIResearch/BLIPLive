@@ -14,13 +14,13 @@ dependencies = []
 
 [project.optional-dependencies]
 harness = [
-    "torch==2.5.1",
-    "torchvision==0.20.1",
+    "torch==2.13.0",
+    "torchvision==0.28.0",
     "transformers==5.5.0",
     "accelerate==1.13.0",
     "numpy==2.3.1",
     "opencv-python>=4.10",
-    "Pillow==11.3.0",
+    "Pillow==13.0.0",
     "openai>=1.50,<3",
 ]
 dev = ["ruff>=0.12"]

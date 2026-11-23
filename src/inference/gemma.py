@@ -65,6 +65,7 @@ class GemmaRuntime:
         base = Gemma4ForConditionalGeneration.from_pretrained(
             model_name,
             revision=model_revision,
+            use_safetensors=True,
             torch_dtype=torch.bfloat16,
             attn_implementation="sdpa",
         )

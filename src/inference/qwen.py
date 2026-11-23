@@ -26,6 +26,7 @@ class QwenRuntime:
         model = AutoModelForImageTextToText.from_pretrained(
             model_name,
             revision=model_revision,
+            use_safetensors=True,
             dtype=torch.bfloat16,
             attn_implementation="sdpa",
             device_map={"": local_rank},
