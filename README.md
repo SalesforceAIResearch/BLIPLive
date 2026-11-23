@@ -1,6 +1,6 @@
 # BLIP-Live
 
-[Project Page](https://bliplive.salesforceresearch.ai/) | [Arxiv](https://arxiv.org/abs/2611.21553v1)
+[Project Page](https://bliplive.salesforceresearch.ai/) | [Arxiv](https://arxiv.org/abs/2611.21553v1) | [Dataset](https://huggingface.co/datasets/Salesforce/BLIP-Live) | [Model (Qwen)](https://huggingface.co/Salesforce/BLIP-Live) | [Model (Gemma)](https://huggingface.co/Salesforce/BLIP-Live-Gemma)
 
 Authors: 
 [Kanchana Ranasinghe](https://scholar.google.com/citations?user=K2WBZTwAAAAJ), [Honglu Zhou](https://scholar.google.com/citations?user=U-Uzcs8AAAAJ), [Dominick Reilly](https://scholar.google.com/citations?user=YlFKOTkAAAAJ), [Le Xue](https://scholar.google.com/citations?user=2_SZkwMAAAAJ&hl=en), [Shusheng Yang](https://scholar.google.com/citations?user=v6dmW5cntoMC), [Juan Carlos Niebles](https://scholar.google.com/citations?user=hqNhUCYAAAAJ), [Silvio Savarese](https://scholar.google.com/citations?user=ImpbxLsAAAAJ), [Ran Xu](https://scholar.google.com/citations?user=sgBB2sUAAAAJ)
