@@ -33,7 +33,7 @@ Run only one launcher per output directory at a time.
 To generate a small smoke-test subset without making judge calls:
 
 ```bash
-python -m inference.run --config configs/qwen_web.json \
+uv run --extra harness python -m inference.run --config configs/qwen_web.json \
   --annotations /path/to/WEB/anno.json --videos /path/to/WEB/videos \
   --output outputs/qwen_smoke --limit 2
 ```
@@ -41,11 +41,11 @@ python -m inference.run --config configs/qwen_web.json \
 To run evaluation separately, including against existing official judgments:
 
 ```bash
-python -m evaluation.run --run outputs/qwen_web \
+uv run --extra harness python -m evaluation.run --run outputs/qwen_web \
   --annotations /path/to/WEB/anno.json
 
 # Offline scoring with saved judgments; no API calls.
-python -m evaluation.run --run outputs/qwen_web \
+uv run --extra harness python -m evaluation.run --run outputs/qwen_web \
   --annotations /path/to/WEB/anno.json --scores /path/to/judged_answers.json
 ```
 

@@ -9,16 +9,14 @@ Authors:
 ## Installation
 
 ```bash
-pip install -e .
-python -m unittest discover -s tests -v
+uv sync
+uv run python -m unittest discover -s tests -v
 ```
 
-For model generation and API judging, install the harness dependencies in a CUDA
-environment. Install the appropriate CUDA build of PyTorch for your machine first
-if necessary; the reference dependency versions are declared in `pyproject.toml`.
+For model generation and API judging, install the harness dependencies in a CUDA environment:
 
 ```bash
-pip install -e ".[harness]"
+uv sync --extra harness
 ```
 
 The example configurations use BF16 full-size models and SDPA. Each GPU holds a
@@ -43,7 +41,7 @@ Both functions also accept lists of records. All public summary scores are
 percentages on a 0–100 scale. To score from the command line:
 
 ```bash
-python src/metrics.py --predictions predictions.jsonl \
+uv run python src/metrics.py --predictions predictions.jsonl \
   --scores judged_answers.json --omega 0.5
 ```
 
